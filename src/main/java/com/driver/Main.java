@@ -6,5 +6,8 @@ public class Main {
         mercedes.move(40, 0);
         mercedes.accelerate(20);
         mercedes.accelerate(-60);
+
+        Boat steamer = new Boat("91C",10000);
+        System.out.println(steamer.getVehicleCapacity());
     }
 }
